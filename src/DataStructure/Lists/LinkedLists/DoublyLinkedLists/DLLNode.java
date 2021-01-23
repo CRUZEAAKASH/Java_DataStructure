@@ -1,4 +1,4 @@
-package Practise.DataStructure.Lists.LinkedLists.DoublyLinkedLists;
+package DataStructure.Lists.LinkedLists.DoublyLinkedLists;
 
 public class DLLNode {
 

@@ -1,4 +1,4 @@
-package Practise.DataStructure.Strings.StringMatching;
+package DataStructure.Strings.StringMatching;
 
 public class containsMethod {
     public static void main(String args[]) {

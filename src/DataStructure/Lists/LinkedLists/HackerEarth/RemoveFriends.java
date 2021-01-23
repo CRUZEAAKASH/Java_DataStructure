@@ -1,4 +1,4 @@
-package Practise.DataStructure.Lists.LinkedLists.HackerEarth;
+package DataStructure.Lists.LinkedLists.HackerEarth;
 
 import java.util.Scanner;
 

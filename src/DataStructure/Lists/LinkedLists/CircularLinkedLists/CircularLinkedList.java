@@ -1,8 +1,8 @@
-package Practise.DataStructure.Lists.LinkedLists.CircularLinkedLists;
+package DataStructure.Lists.LinkedLists.CircularLinkedLists;
 
 public class CircularLinkedList {
 
-    private CLLNode tail;
+    private DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode tail;
     private int length;
 
     public CircularLinkedList() {
@@ -16,18 +16,18 @@ public class CircularLinkedList {
     }
 
     //Get Tail of Circular Linked list
-    public CLLNode getTail() {
+    public DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode getTail() {
         return tail;
     }
 
     //Add element to head of list
-    public void addNodeToHead(CLLNode node) {
+    public void addNodeToHead(DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode node) {
         if (tail == null) {
             //means list is empty
             node.setNext(node);
             tail = node;
         } else {
-            CLLNode temp = tail.getNext();
+            DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode temp = tail.getNext();
             tail.setNext(node);
             node.setNext(temp);
         }
@@ -35,7 +35,7 @@ public class CircularLinkedList {
     }
 
     //Add element to tail of list
-    public void addElementToTail(CLLNode node) {
+    public void addElementToTail(DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode node) {
         addNodeToHead(node);
         tail = tail.getNext();
     }
@@ -52,7 +52,7 @@ public class CircularLinkedList {
 
     //Return and remove data from head of list
     public int removeFromHead() {
-        CLLNode temp = tail.getNext();
+        DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode temp = tail.getNext();
         if (temp == null) {
             tail = null;
             return Integer.MIN_VALUE;
@@ -68,14 +68,14 @@ public class CircularLinkedList {
 
     //Returns and remove data from tail of list
     public int removeTail() {
-        CLLNode temp = tail;
+        DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode temp = tail;
         if (temp == null) {
             tail = null;
             return Integer.MIN_VALUE;
         } else if (temp == tail) {
             tail = null;
         } else {
-            CLLNode secondLast = tail;
+            DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode secondLast = tail;
             while (secondLast.getNext() != tail) {
                 secondLast = secondLast.getNext();
             }
@@ -92,7 +92,7 @@ public class CircularLinkedList {
         if (tail == null) {
             return false;
         }
-        CLLNode temp = tail;
+        DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode temp = tail;
         while (temp != tail) {
             if (temp.getData() == data) {
                 return true;
@@ -104,8 +104,8 @@ public class CircularLinkedList {
     //Removes and return the matched data from the CircularLinkedList
     //This one is not completed yet
     public int removeSpecifiedData(int data) {
-        CLLNode temp = tail;
-        CLLNode next = tail.getNext();
+        DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode temp = tail;
+        DataStructure.Lists.LinkedLists.CircularLinkedLists.CLLNode next = tail.getNext();
         if (tail == null) {
             return Integer.MIN_VALUE;
         }

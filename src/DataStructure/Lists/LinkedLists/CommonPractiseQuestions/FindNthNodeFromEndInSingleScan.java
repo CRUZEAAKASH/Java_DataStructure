@@ -1,7 +1,7 @@
-package Practise.DataStructure.Lists.LinkedLists.CommonPractiseQuestions;
+package DataStructure.Lists.LinkedLists.CommonPractiseQuestions;
 
-import Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists.LinkedList;
-import Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode;
+import DataStructure.Lists.LinkedLists.SingleLinkedLists.LinkedList;
+import DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode;
 
 public class FindNthNodeFromEndInSingleScan {
     public static void main(String[] args) {

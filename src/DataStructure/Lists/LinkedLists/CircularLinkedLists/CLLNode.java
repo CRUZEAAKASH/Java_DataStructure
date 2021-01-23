@@ -1,4 +1,4 @@
-package Practise.DataStructure.Lists.LinkedLists.CircularLinkedLists;
+package DataStructure.Lists.LinkedLists.CircularLinkedLists;
 
 public class CLLNode {
 

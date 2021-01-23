@@ -1,8 +1,8 @@
-package Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists;
+package DataStructure.Lists.LinkedLists.SingleLinkedLists;
 
 public class LinkedList {
 
-    private ListNode head;
+    private DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode head;
     private int length;
 
     public LinkedList() {
@@ -10,7 +10,7 @@ public class LinkedList {
     }
 
     //Get first node in the linked list
-    public ListNode getHead() {
+    public DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode getHead() {
         return head;
     }
 
@@ -20,7 +20,7 @@ public class LinkedList {
     }
 
     //Insert a node at the beginning of the list
-    public void insertNodeAtBeginning(ListNode node) {
+    public void insertNodeAtBeginning(DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode node) {
         node.setNext(head);
         head = node;
         length++;
@@ -43,7 +43,7 @@ public class LinkedList {
     }
 
     //Insert node at a given position in the list
-    public void insertNodeAtGivenPositionInList(ListNode node, int position) {
+    public void insertNodeAtGivenPositionInList(DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode node, int position) {
         if (position < 0) {
             position = 0;
         }
@@ -57,11 +57,11 @@ public class LinkedList {
                 node.setNext(head);
                 head = node;
             } else {
-                ListNode p = head;
+                DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode p = head;
                 for (int i = 1; i < position; i++) {
                     p = p.getNext();
                 }
-                ListNode q = p.getNext();
+                DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode q = p.getNext();
                 node.setNext(q);
                 p.setNext(node);
             }
@@ -70,8 +70,8 @@ public class LinkedList {
     }
 
     //Delete Node from the beginning
-    public ListNode deleteNodeAtTheBeginningOfTheLinkedList() {
-        ListNode node = head;
+    public DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode deleteNodeAtTheBeginningOfTheLinkedList() {
+        DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode node = head;
         if (node != null) {
             head = node.getNext();
             node.setNext(null);
@@ -81,13 +81,13 @@ public class LinkedList {
     }
 
     // Delete node at the end of the list
-    public ListNode deleteNodeAtTheLastOfTheLinkedList() {
+    public DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode deleteNodeAtTheLastOfTheLinkedList() {
         if (head == null) {
             return null;
         }
-        ListNode p = null;
-        ListNode q = head;
-        ListNode r = head.getNext();
+        DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode p = null;
+        DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode q = head;
+        DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode r = head.getNext();
         while (r != null) {
             p = q;
             q = r;
@@ -99,7 +99,7 @@ public class LinkedList {
     }
 
     //Delete Node matching a specified node from the list
-    public ListNode deleteSpecifiedNodeFromTheList(ListNode node) {
+    public DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode deleteSpecifiedNodeFromTheList(DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode node) {
         if (head == null) {
             return null;
         } else if (node.equals(head)) {
@@ -107,8 +107,8 @@ public class LinkedList {
             node.setNext(null);
             length--;
         } else {
-            ListNode p = null;
-            ListNode q = head;
+            DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode p = null;
+            DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode q = head;
             while (q != null) {
                 if (q.equals(node)) {
                     p.setNext(node.getNext());
@@ -125,7 +125,7 @@ public class LinkedList {
 
     //Return first position of Node value that is equal to required value
     public int getPositionOfRequiredData(int data) {
-        ListNode temp = getHead();
+        DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode temp = getHead();
         int position = 0;
         while (temp != null) {
             if (temp.getData() == data) {

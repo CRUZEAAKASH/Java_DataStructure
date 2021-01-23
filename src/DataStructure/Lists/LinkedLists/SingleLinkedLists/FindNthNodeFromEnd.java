@@ -1,13 +1,13 @@
-package Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists;
+package DataStructure.Lists.LinkedLists.SingleLinkedLists;
 
 public class FindNthNodeFromEnd {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1, 3, 4, 7, 9, 12, 15};
-        ListNode node = null;
+        DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode node = null;
         LinkedList linkedList = new LinkedList();
         for (int i : arr) {
-            node = new ListNode(i);
+            node = new DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode(i);
             linkedList.insertNodeAtEndOfList(node);
         }
 

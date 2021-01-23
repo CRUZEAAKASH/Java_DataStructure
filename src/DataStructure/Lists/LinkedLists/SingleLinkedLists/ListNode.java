@@ -1,4 +1,4 @@
-package Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists;
+package DataStructure.Lists.LinkedLists.SingleLinkedLists;
 
 public class ListNode  {
 

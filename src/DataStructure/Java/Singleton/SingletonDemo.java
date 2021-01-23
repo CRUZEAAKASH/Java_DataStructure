@@ -1,9 +1,9 @@
-package Practise.DataStructure.Java.Singleton;
+package DataStructure.Java.Singleton;
 
 public class SingletonDemo {
     public static void main(String[] args) {
-        Singleton tmp = Singleton.getInstance();
+        DataStructure.Java.Singleton.Singleton tmp = DataStructure.Java.Singleton.Singleton.getInstance();
         tmp.demoMethod();
-        Singleton.demoMethod();
+        DataStructure.Java.Singleton.Singleton.demoMethod();
     }
 }

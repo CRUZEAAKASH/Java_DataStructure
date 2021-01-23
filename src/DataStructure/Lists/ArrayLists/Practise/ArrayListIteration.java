@@ -1,4 +1,4 @@
-package Practise.DataStructure.Lists.ArrayLists.Practise;
+package DataStructure.Lists.ArrayLists.Practise;
 
 import java.util.ArrayList;
 import java.util.Iterator;

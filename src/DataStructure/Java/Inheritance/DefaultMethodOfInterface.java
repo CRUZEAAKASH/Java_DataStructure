@@ -1,4 +1,4 @@
-package Practise.DataStructure.Java.Inheritance;
+package DataStructure.Java.Inheritance;
 
 interface Multiplication {
     int multiply(int a, int b);

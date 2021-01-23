@@ -1,4 +1,4 @@
-package Practise.DataStructure.Strings.Practise.HackerEarth;
+package DataStructure.Strings.Practise.HackerEarth;
 
 public class ShiftCharactersByKPositions {
 

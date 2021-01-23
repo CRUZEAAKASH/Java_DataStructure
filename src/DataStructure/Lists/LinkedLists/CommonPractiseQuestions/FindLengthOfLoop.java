@@ -1,6 +1,6 @@
-package Practise.DataStructure.Lists.LinkedLists.CommonPractiseQuestions;
+package DataStructure.Lists.LinkedLists.CommonPractiseQuestions;
 
-import Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode;
+import DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode;
 
 public class FindLengthOfLoop {
     ListNode fastPtr;

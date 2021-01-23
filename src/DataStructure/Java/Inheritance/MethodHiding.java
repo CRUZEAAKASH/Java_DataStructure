@@ -1,4 +1,4 @@
-package Practise.DataStructure.Java.Inheritance;
+package DataStructure.Java.Inheritance;
 
 class Parent {
     public static void foo() {

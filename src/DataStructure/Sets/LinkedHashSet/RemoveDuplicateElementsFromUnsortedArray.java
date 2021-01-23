@@ -1,4 +1,4 @@
-package Practise.DataStructure.Sets.LinkedHashSet;
+package DataStructure.Sets.LinkedHashSet;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

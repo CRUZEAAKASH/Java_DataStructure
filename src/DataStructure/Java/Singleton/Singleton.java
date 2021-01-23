@@ -1,4 +1,4 @@
-package Practise.DataStructure.Java.Singleton;
+package DataStructure.Java.Singleton;
 
 public class Singleton {
 

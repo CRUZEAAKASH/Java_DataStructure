@@ -1,19 +1,19 @@
-package Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists;
+package DataStructure.Lists.LinkedLists.SingleLinkedLists;
 
 public class LinkedListMainClass {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1,3,4,5,6,7,8};
-        ListNode listNode = null;
+        DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode listNode = null;
         LinkedList list = new LinkedList();
         for(int i : arr){
-            listNode = new ListNode(i);
+            listNode = new DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode(i);
             list.insertNodeAtEndOfList(listNode);
         }
 
 
         //Insert node after 4th position
-        listNode = new ListNode(50);
+        listNode = new DataStructure.Lists.LinkedLists.SingleLinkedLists.ListNode(50);
         list.insertNodeAtGivenPositionInList(listNode,4);
 
 

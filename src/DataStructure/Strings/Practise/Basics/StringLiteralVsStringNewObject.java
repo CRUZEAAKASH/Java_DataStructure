@@ -1,4 +1,4 @@
-package Practise.DataStructure.Strings.Practise.Basics;
+package DataStructure.Strings.Practise.Basics;
 
 public class StringLiteralVsStringNewObject {
 

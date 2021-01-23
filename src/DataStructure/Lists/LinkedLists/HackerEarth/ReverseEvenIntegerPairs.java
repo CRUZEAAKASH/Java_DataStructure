@@ -1,8 +1,8 @@
-package Practise.DataStructure.Lists.LinkedLists.HackerEarth;
+package DataStructure.Lists.LinkedLists.HackerEarth;
 
-//import Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists.Node;
+//import DataStructure.Lists.LinkedLists.SingleLinkedLists.Node;
 
-//import Practise.DataStructure.Lists.LinkedLists.SingleLinkedLists.Node;
+//import DataStructure.Lists.LinkedLists.SingleLinkedLists.Node;
 
 import java.util.Scanner;
 
